@@ -1,4 +1,5 @@
 import cloudinary from "../lib/cloudinary.js";
+import { io,getReceiverSocketId } from "../lib/socket.js";
 import Message from "../models/message.model.js";
 import User from "../models/user.model.js";
 
@@ -52,6 +53,12 @@ export const sendMessage=async(req,res)=>{
         await newMessage.save();
         
         //here for realtime,we will use socket.io
+
+        const receiverSocketId=getReceiverSocketId(receiverId);
+
+        if(receiverId){
+            io.to(receiverId).emit("newMessage",newMessage)
+        }
 
         res.status(200).json(newMessage)
     } catch (error) {

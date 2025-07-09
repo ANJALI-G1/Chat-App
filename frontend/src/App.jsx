@@ -15,10 +15,11 @@ import { useThemeStore } from './store/useThemeStore.js'
 const App = () => {
   const {theme}=useThemeStore();
 
-  const { authUser, checkAuth, isCheckingAuth } = useAuthStore();
+  const { authUser, checkAuth, isCheckingAuth ,onlineUsers} = useAuthStore();
+  
   
   useEffect(() => { checkAuth() }, [checkAuth]);
-  console.log({ authUser });
+
 
   if (isCheckingAuth && !authUser) {
     return (
@@ -35,6 +36,7 @@ const App = () => {
   return (
     <>
       <div data-theme={theme}>
+        {console.log(onlineUsers)}
 
 
         <Navbar />
