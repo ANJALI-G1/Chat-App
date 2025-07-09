@@ -1,5 +1,5 @@
 import { useChatStore } from "../store/useChatStore.js"
-import ChatHeader from "./chatHeader.jsx";
+import ChatHeader from "./ChatHeader.jsx";
 import { useEffect } from "react";
 import MessageInput from "./MessageInput.jsx";
 import { useAuthStore } from "../store/useAuthStore.js";
@@ -39,7 +39,7 @@ const ChatContainer = () => {
       <ChatHeader/>
 
       {/* Message that will be get displayed */}
-      <p>messages...</p>
+     
       <div className="flex-1 overflow-y-auto p-4 space-y-4">
         {messages.map((message)=>(
           <div 
