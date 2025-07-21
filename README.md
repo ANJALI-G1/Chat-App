@@ -1,83 +1,35 @@
-# 💬 Chat App - ChitChat
+# 💬 ChitChat - Real-Time Fullstack Chat App
 
-A real-time chat application built using Node.js, Express, and Socket.IO. Users can join a chat room and exchange messages instantly. The app is deployed on Render.
+A fullstack real-time chat application built using **Node.js**, **Express**, **Socket.IO**, and vanilla **HTML/CSS/JS** with **image upload support via Cloudinary**.
 
-🌐 **Live Demo:** [chitchat-pzll.onrender.com](https://chitchat-pzll.onrender.com)
+🌐 **Live App:** [https://chitchat-pzll.onrender.com](https://chitchat-pzll.onrender.com)
 
 ---
 
 ## 🚀 Features
 
-- Real-time bi-directional communication using **Socket.IO**
-- Join and leave chat rooms
-- Unique usernames per session
-- Message broadcast to all users in the room
-- User join/leave notifications
-- Deployed on **Render**
+- 💬 Real-time messaging using **WebSockets (Socket.IO)**
+- 🧑‍🤝‍🧑 Join with a username instantly
+- 📸 Upload and share images in chat (via Cloudinary)
+- 🔔 User join/leave notifications
+- 💡 Simple and clean UI
+- ☁️ Fully deployed on Render as a single fullstack project
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js, Express.js
-- **Real-time:** Socket.IO
-- **Hosting:** Render
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express.js
+- **Real-time Communication**: Socket.IO
+- **Image Hosting**: Cloudinary
+- **Deployment**: Render
 
 ---
 
-## 📁 Project Structure
+## 📦 Installation (Run Locally)
 
-chat-app/
-├── public/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-├── server.js
-├── package.json
-└── README.md
-
-yaml
-Copy
-Edit
-
----
-
-## 📦 Installation & Usage (For Local Development)
-
-1. **Clone the repository**
+1. **Clone the Repository**
 ```bash
 git clone https://github.com/ANJALI-G1/chat-app.git
 cd chat-app
-Install dependencies
-
-bash
-Copy
-Edit
-npm install
-Run the server
-
-bash
-Copy
-Edit
-node server.js
-Open the app
-Visit http://localhost:3000 in your browser.
-
-🌍 Deployment
-The app is live on Render.
-
-Production URL:
-🔗 https://chitchat-pzll.onrender.com
-
-To deploy your own:
-
-Push code to GitHub.
-
-Go to https://render.com and create a new Web Service.
-
-Connect your GitHub repo.
-
-Set build/start command:
-
-Start Command: node server.js
