@@ -1,29 +1,35 @@
-# 💬 ChitChat - Real-Time Fullstack Chat App
 
-A fullstack real-time chat application built using **Node.js**, **Express**, **Socket.IO**, and vanilla **HTML/CSS/JS** with **image upload support via Cloudinary**.
+# 💬 ChitChatt – Real-Time Fullstack Chat Application
 
-🌐 **Live App:** [https://chitchat-pzll.onrender.com](https://chitchat-pzll.onrender.com)
+**ChitChatt** is a real-time chat app built using the **MERN** stack with **Socket.IO** for seamless communication, **JWT** for secure authentication, and **Cloudinary** for image sharing. The frontend is crafted with **React**, **Tailwind CSS**, and **DaisyUI**, delivering a modern and responsive UI.
+
+🌐 **Live App**: [https://chitchat-pzll.onrender.com](https://chitchat-pzll.onrender.com)  
+📂 **GitHub Repo**: [ANJALI-G1/Chat-App](https://github.com/ANJALI-G1/Chat-App)
 
 ---
 
 ## 🚀 Features
 
-- 💬 Real-time messaging using **WebSockets (Socket.IO)**
-- 🧑‍🤝‍🧑 Join with a username instantly
-- 📸 Upload and share images in chat (via Cloudinary)
-- 🔔 User join/leave notifications
-- 💡 Simple and clean UI
-- ☁️ Fully deployed on Render as a single fullstack project
+- 🔐 **JWT Authentication** – Secure login and protected routes
+- 💬 **Real-Time Messaging** – Enabled via **Socket.IO**
+- 📸 **Image Upload** – Share media instantly using **Cloudinary**
+- 🔔 **User Join/Leave Notifications**
+- 🧑‍💻 **Join with Just a Username** – No signup required
+- 💡 **Responsive & Accessible UI** – Powered by **Tailwind CSS + DaisyUI**
+- ☁️ **Deployed on Render** – Fully functional fullstack deployment
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, Express.js
-- **Real-time Communication**: Socket.IO
-- **Image Hosting**: Cloudinary
-- **Deployment**: Render
+| Layer        | Technology                           |
+|--------------|--------------------------------------|
+| Frontend     | React, Tailwind CSS, DaisyUI         |
+| Backend      | Node.js, Express.js, MongoDB         |
+| Real-Time    | Socket.IO                            |
+| Authentication | JWT                                |
+| Media Upload | Cloudinary                           |
+| Deployment   | Render (Fullstack deployment)        |
 
 ---
 
